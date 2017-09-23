@@ -1,16 +1,15 @@
-<%--
-  Created by IntelliJ IDEA.
-  User: admin
-  Date: 13.09.2017
-  Time: 22:12
-  To change this template use File | Settings | File Templates.
---%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
-  <head>
-    <title>epam3</title>
-  </head>
-  <body>
-  Test Web project
-  </body>
+<head>
+    <title>Task 8. Sorting numbers.</title>
+</head>
+<body>
+<h3 style="color:blue;">Sorting "whole numbers"</h3><br>
+Please input Integer numbers divided by comma<br>
+<i>example: 10, 5, 25, -8</i><br>
+<form action="sortform" method="post">
+    <input type="text" name="numbers">
+    <input type=submit name="button" value="sort">
+</form>
+</body>
 </html>
