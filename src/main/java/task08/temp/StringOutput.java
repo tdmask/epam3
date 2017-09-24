@@ -1,4 +1,6 @@
-package task08;
+package task08.temp;
+
+import task08.StringSorter;
 
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
@@ -15,6 +17,7 @@ public class StringOutput {
             out.print("<title>Sorting result</title>");
             out.print("</head><body>");
             numbers = request.getParameter("numbers");
+            out.print("version beta..<br>");
             out.print("original input : " + numbers);
             StringSorter sorter = new StringSorter();
             out.print("<br>");

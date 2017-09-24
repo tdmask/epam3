@@ -1,4 +1,6 @@
-package task08;
+package task08.temp;
+
+import task08.temp.StringOutput;
 
 import javax.servlet.ServletException;
 import javax.servlet.http.HttpServlet;
